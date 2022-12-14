@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var dzialanie = prompt("Podaj + lub - lub * lub / lub %")
+var a = Number(prompt("Podaj liczbe "))
+var b = Number(prompt("Podaj liczbe "))
+
+switch(dzialanie){
+
+    case "+":
+        var wynik=a+b
+        if(wynik>-10000){
+            document.write("Wynik to " +wynik)
+        }
+        else{
+            document.write("Bledne liczby")
+        }
+        break;
+
+    case "-":
+        var wynik=a-b
+        if(wynik>-10000){
+            document.write("Wynik to " +wynik)
+        }
+        else{
+            document.write("Bledne liczby")
+        }
+        break;
+
+    case "*":
+        var wynik=a*b
+        if(wynik>-10000){
+            document.write("Wynik to " +wynik)
+        }
+        else{
+            document.write("Bledne liczby")
+        }
+        break;
+
+    case "/":
+        var wynik=a/b
+        if(wynik>-10000){
+            document.write("Wynik to " +wynik)
+        }
+        else{
+            document.write("Bledne liczby")
+        }
+        break;
+
+    case "%":
+        var wynik=a%b
+        if(wynik>-10000){
+            document.write("Wynik to " +wynik)
+        }
+        else{
+            document.write("Bledne liczby")
+        }
+        break;
+
+    default:
+        document.write("Bledne dzialanie")
+        break;
+}
+    </script>
+
+</body>
+</html>
